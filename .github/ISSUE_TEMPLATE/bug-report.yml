@@ -1,0 +1,43 @@
+name: 🐛 Bug 报告
+description: 报告发现的缺陷或问题
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 请清晰描述遇到的问题
+      placeholder: 发生了什么错误？在什么情况下出现的？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 如何重现这个问题？
+      placeholder: |
+        1. 进入某个界面
+        2. 点击某个按钮
+        3. 看到错误发生
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 你期望看到什么结果？
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 请提供你的开发环境信息
+      placeholder: |
+        - 操作系统: Windows 10 / macOS / Linux
+        - 游戏引擎版本: Unity 2022.3.1 / Godot 4.0
+        - 硬件信息: （可选）
