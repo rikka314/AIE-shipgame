@@ -3,7 +3,7 @@
 
 一个基于航线规划与动态经济的策略贸易游戏。玩家通过绘制最优贸易航线，在不同港口间进行买卖，并通过侦查与海盗行为与其他商队互动，最终积累财富与声望。
 
-**[>> 点击查看详细游戏设计文档 <<]**
+**[>> 点击查看详细游戏设计文档 <<](https://github.com/rikka314/AIE-shipgame/issues/planning.md)**
 
 ## 🎮 游戏特色
 
@@ -61,7 +61,7 @@ AIE-shipgame/
 
 ## 🤝 如何参与开发？
 
-我们非常欢迎贡献！请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解我们的行为准则以及提交代码的流程。
+我们非常欢迎贡献!了解我们的行为准则以及提交代码的流程。
 
 1.  Fork 本仓库
 2.  创建你的功能分支 (`git checkout -b feature/AmazingFeature`)
@@ -72,7 +72,7 @@ AIE-shipgame/
 ## 📝 任务清单与进度
 
 我们的开发任务使用 GitHub Issues 进行管理。
-**[>> 查看待处理的任务列表 <<](https://github.com/你的用户名/你的仓库名/issues)**
+**[>> 查看待处理的任务列表 <<](https://github.com/rikka314/AIE-shipgame/issues/tasklist.md)**
 
 **核心功能进度:**
 - [x] 项目初始化与仓库搭建
