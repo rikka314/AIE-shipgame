@@ -1,0 +1,37 @@
+name: 🚀 功能需求
+description: 提交新的功能建议或需求
+title: "[功能]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 功能描述
+      description: 请详细描述这个功能需求
+      placeholder: 这个功能要解决什么问题？用户会如何使⽤它？
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 完成这个功能需要满足哪些条件？
+      placeholder: |
+        - [ ] 功能A正常工作
+        - [ ] 用户能够完成B操作
+        - [ ] 没有破坏现有功能
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      description: 这个功能的紧急程度
+      options:
+        - 高（阻塞开发）
+        - 中（重要功能）
+        - 低（优化改进）
+    validations:
+      required: true
